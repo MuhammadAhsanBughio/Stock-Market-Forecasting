@@ -9,11 +9,11 @@ The dataset was obtained by scraping data from the Pakistan Stock Exchange websi
 
 ### Tools Used 🧰
 - Google Colab - Model Computation [Colab](https://colab.research.google.com/)
-- Numpy
-- Pandas
-- Matplotlib
-- Tensorflow - Sequential, Dense, LSTM
-- sklearn.preprocessing - MinMaxScaler
+- Numpy [Info](https://numpy.org/)
+- Pandas [info] (https://pandas.pydata.org/)
+- Matplotlib [info](https://matplotlib.org/)
+- Tensorflow - Sequential, Dense, LSTM [info](https://www.tensorflow.org/)
+- sklearn.preprocessing - MinMaxScaler [info](https://scikit-learn.org/stable/)
   
 ### Data Cleaning/Preparation 🧹
 The data contained Date | Open | High | Low | Close columns. Only the Date and Close column was selected as we were interested in the closing price of stocks only.
@@ -42,6 +42,8 @@ Leveraged both training and test datasets for validation during the training pro
 Employed the trained model to make predictions on both the training and test datasets.
 Inverse-transformed the predicted values to their original scale using the MinMaxScaler.
 Calculated the Root Mean Squared Error (RMSE) as a performance metric.
+<img width="1267" alt="Test Prediction" src="https://github.com/MuhammadAhsanBughio/Stock-Market-Forecasting/assets/139073097/06df7b40-312e-453f-bf2a-6569f094ed40">
+
 
 #### 6. Model Evaluation:
 Training Data RMSE (81.5): The RMSE of 81.5 on the training dataset signifies that, on average, the predicted stock prices differ from the actual values by approximately 81.5 units. This suggests that the model exhibits reasonable accuracy in capturing patterns within the training data.
